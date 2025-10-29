@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="test"></p>
+    <h1 id="title"></h1>
+    <h1 id="num1"></h1>
+    <h1 id="num2"></h1>
+    <button onclick="start()">Start</button>
+    <button onclick="plus()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button>
+    <h1 id="result"></h1>
+
+    <h1 id="title">Salom</h1>
+
+    <button onclick="change()">O'zgartir</button>
+
+    <script>
+      function change() {
+        document.getElementById("title").innerText = "Assalomu alaykum!";
+      }
+    </script>
+
+    <img id="pic" src="" width="200" />
+    <button onclick="changePic()">Change</button>
+
+    <script>
+      function changePic() {
+        document.getElementById("pic").src = "new.png";
+      }
+    </script>
+    ```
+    <script src="./less1.js"></script>
+  </body>
+</html>
